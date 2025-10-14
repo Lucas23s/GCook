@@ -1,10 +1,11 @@
+-- Configuração Local do GIT
 git config --global user.name Lucas23s
 git config --global user.email lucaseduardog48@gmail.com
 
 -- Criar o projeto
 dotnet new mvc -o GCook
 
-cd GCook 
+cd GCook
 
 -- Pacotes
 dotnet add package Microsoft.EntityFrameworkCore --version 9.0.9
